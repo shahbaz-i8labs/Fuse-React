@@ -50,7 +50,7 @@ function ProductsHeader(props)
             </div>
             <FuseAnimate animation="transition.slideRightIn" delay={300}>
                 <Button component={Link} to="/apps/e-commerce/products/new" className="whitespace-no-wrap" variant="contained">
-                    <span className="hidden sm:flex">Add New Product</span>
+                    <span className="hidden sm:flex">Add Record</span>
                     <span className="flex sm:hidden">New</span>
                 </Button>
             </FuseAnimate>

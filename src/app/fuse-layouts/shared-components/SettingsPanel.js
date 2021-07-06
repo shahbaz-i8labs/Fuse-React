@@ -71,7 +71,7 @@ function SettingsPanel()
 
     return (
         <React.Fragment>
-            <Button id="fuse-settings" className={classes.button} variant="contained" onClick={handleOpen}>
+            {/* <Button id="fuse-settings" className={classes.button} variant="contained" onClick={handleOpen}>
                 <Icon className={classes.buttonIcon}>settings</Icon>
             </Button>
 
@@ -97,7 +97,7 @@ function SettingsPanel()
                     <FuseSettings/>
 
                 </FuseScrollbars>
-            </Dialog>
+            </Dialog> */}
         </React.Fragment>
     );
 }
